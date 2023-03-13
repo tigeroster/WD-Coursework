@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>But Products - Hoops</title>
+    <title>Buy Products - Hoops</title>
     <link rel="stylesheet" href="products.css">
     <link rel="stylesheet" href="index.css">
     <link rel="icon" type="image/x-icon" href="Assets/fav.png">
@@ -33,33 +33,11 @@
                 <a href="#"><img src="Assets/about.png" />About</a>
               </li>
               <li>
-                <a href="#"><img src="Assets/cart.png" /></a>
+                <a href="cart.html"><img src="Assets/cart.png" /></a>
               </li>
             </ul>
         </div>
     </section>
-
-    <!-- <div class="cart">
-        <div class="cart-title">
-            <div class="cart-content">
-                <div class="cart-box">
-                    <img src="Assets/img/products/f1.jpg" alt="">
-                    <div class="detail-box">
-                        <div class="cart-product-title">Blue Skipping Ropes</div>
-                        <div class="cart-price">$15</div>
-                        <input type="number" value="1" class="cart-quantity">
-                    </div>
-                </div>
-                <img src="Assets/trash.png" class="cart-remove">
-            </div>
-        </div>
-        <div class="total">
-            <div class="total-title">Total</div>
-            <div class="total-price">$0</div>
-        </div>
-        <button type="button" class="btn-buy">Checkout</button>
-        <img src="Assets/x.png" alt="">
-    </div> -->
     <section id="product1" class="section-p1">
         <h2>Shop all Products</h2>
         <p>Brand New Collection Featured Products</p>
@@ -72,7 +50,7 @@
 
                     <h4>$78</h4>
                 </div>
-                <a href="#"><img src="Assets/cart.png" id="cart"></a>
+                <a href="#" data-price="78"><img src="Assets/cart.png" id="cart" onclick="addProduct()"></a>
             </div>
             <div class="pro">
                 <img src="Assets/img/products/f2.jpg">
@@ -187,6 +165,40 @@
         </div>
         
     </section>
+
+    <div class="cd-cart cd-cart--empty js-cd-cart">
+        <a href="#0" class="cd-cart__trigger text-replace">
+            Cart
+            <ul class="cd-cart__count"> <!-- cart items count -->
+                <li>0</li>
+                <li>0</li>
+            </ul> <!-- .cd-cart__count -->
+        </a>
+    
+        <div class="cd-cart__content">
+            <div class="cd-cart__layout">
+                <header class="cd-cart__header">
+                    <h2>Cart</h2>
+                    <span class="cd-cart__undo">Item removed. <a href="#0">Undo</a></span>
+                </header>
+                
+                <div class="cd-cart__body">
+                    <ul>
+                        <!-- products added to the cart will be inserted here using JavaScript -->
+                    </ul>
+                </div>
+    
+                <footer class="cd-cart__footer">
+                    <a href="#0" class="cd-cart__checkout">
+              <em>Checkout - $<span>0</span>
+                <svg class="icon icon--sm" viewBox="0 0 24 24"><g fill="none" stroke="currentColor"><line stroke-width="2" stroke-linecap="round" stroke-linejoin="round" x1="3" y1="12" x2="21" y2="12"/><polyline stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="15,6 21,12 15,18 "/></g>
+                </svg>
+              </em>
+            </a>
+                </footer>
+            </div>
+        </div> <!-- .cd-cart__content -->
+    </div> 
 
     <footer class="section-p1">
         <div class="col">
