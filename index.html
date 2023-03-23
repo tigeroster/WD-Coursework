@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hoops - Your Most Trusted Online Sporting Store</title>
     <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
     <link rel="icon" type="image/x-icon" href="Assets/fav.png">
   </head>
   <body>
@@ -23,6 +24,7 @@
         <h4>Lochana Dissanayake</h4>
         <h4>Savina Sandinu</h4>
         <h4>Sakith Fernando</h4>
+        <h4>Sandila</h4>
       </div>
     </div>
     <section id="header">
@@ -52,7 +54,10 @@
   </section>
   <section class="content">
     <div class="home">
-      asdasdasdas
+      <a href="Blogs/impactOfTech.html">Impact of History</a>
+      <a href="Blogs/olympicHistory.html">Olympic History</a>
+      <a href="Blogs/outdoorSports.html">Outdoor Sports</a>
+      <a href="Blogs/winAndLose.html">Win and Lose</a>
     </div>
   </section>
   <footer class="section-p1">
@@ -74,23 +79,6 @@
         </div>
     </div>
 
-    <div class="col">
-        <h4>About</h4>
-        <a href="#">About Us</a>
-        <a href="#">Delivery Information</a>
-        <a href="#">Privacy Policy</a>
-        <a href="#">Terms & Conditions</a>
-        <a href="#">Contact Us</a>
-    </div>
-    <div class="col">
-        <h4>My Account</h4>
-        <a href="#">Sign In</a>
-        <a href="#">View Cart</a>
-        <a href="#">My Wishlist</a>
-        <a href="#">Track My Orders</a>
-        <a href="#">Help</a>
-    </div>
-
     <div class="col install">
         <h4>Insall App</h4>
         <p>Available on App Store and Google Store</p>
@@ -106,34 +94,6 @@
         <p>© 2023,Hoops - HTML CSS JS Sample </p>
     </div>
 </footer>
-    <script>
-      let intro = document.querySelector(".intro");
-      let logo = document.querySelector(".logo-header");
-      let logospan = document.querySelectorAll(".lg");
-
-      window.addEventListener("DOMContentLoaded", () => {
-        setTimeout(() => {
-          logospan.forEach((span, idx) => {
-            setTimeout(() => {
-              span.classList.add("active");
-            }, (idx + 1) * 400)
-            
-          });
-        });
-
-        setTimeout(() => {
-          logospan.forEach((span, idx) => {
-            setTimeout(() => {
-              span.classList.remove("active");
-              span.classList.add("fade")
-            }, (idx + 1) * 50)
-          });
-        }, 3800);
-
-        setTimeout(() => {
-          intro.style.top = "-100vh"
-        }, 4000)
-      });
-    </script>
+    <script src="index.js"></script>
   </body>
 </html>
