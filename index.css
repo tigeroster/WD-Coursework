@@ -112,13 +112,13 @@ body {
 
 .team-name{
   color: rgb(238, 236, 236);
-  position: absolute;
-  top: 70%;
-  left: 32%;
-}
-.developed{
   text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 30px;
 }
+
 
 .team-name h4{
   display: inline-block;
