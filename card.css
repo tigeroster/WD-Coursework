@@ -2,21 +2,30 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+:root{
+    --main-color: white;
+}
 
 html, body{
     justify-content: center;
     align-items: center;
+    background: var(--main-color);
 }
 
 .switcher{
     position: fixed;
-    top: 100px;
-    right: 0;
+    top: 120px;
+    right: -200px;
     width: 200px;
     padding: 10px;
     background: #fff;
     z-index: 1000;
     border-bottom-left-radius: 10px;
+    transition: 0.5s ease;
+}
+
+.switcher.active{
+    right: 0px;
 }
 
 .switcher h3{
