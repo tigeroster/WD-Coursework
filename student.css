@@ -1,20 +1,10 @@
-html,
-body {
-  justify-content: center;
-  align-items: center;
-}
+
 .container {
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   box-sizing: border-box;
   background: url("Assets/about us/back.jpg");
-}
-
-.menu-icon {
-  width: 30px;
-  cursor: pointer;
-  margin-left: 40px;
 }
 
 .about-content {
@@ -29,6 +19,10 @@ body {
 
 .about-info h1 {
   font-size: 60px;
+}
+
+.about-info p{
+  font-weight: 300;
 }
 
 .wrapper {
