@@ -27,3 +27,20 @@ function changeBackground(color) {
   });
   }
 }
+
+
+function defaultFont(){
+  document.querySelector('.gallery h1').style.fontSize = "3rem";
+  document.querySelector('.gallery').style.fontSize = "1em";
+}
+
+function mediumFont(){
+  document.querySelector('.gallery h1').style.fontSize = "2.5em";
+  document.querySelector('.gallery').style.fontSize = "1.3em";
+
+}
+
+function largeFont(){
+  document.querySelector('.gallery h1').style.fontSize = "2.8em";
+  document.querySelector('.gallery').style.fontSize = "1.5em";
+}

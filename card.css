@@ -68,6 +68,36 @@ body {
   justify-content: center;
 }
 
+.font-buttons-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.font-buttons{
+  padding: 0 10px;
+  display: inline-block;
+  background: #4d4d4d;
+  color: #fff;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.font-buttons .active{
+  background: #444;
+}
+
+.font-buttons:nth-child(2){
+  font-size: 1.5em;
+}
+
+.font-buttons:nth-child(3){
+  font-size: 2em;
+}
+
 .theme-buttons {
   display: block;
   height: 50px;
