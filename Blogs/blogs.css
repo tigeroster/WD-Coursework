@@ -1,12 +1,10 @@
 body {
     background-color: white;
     color: black;
-    text-align: justify;
-    font-family: "League Spartan", sans-serif;
     font-family: "Poppins", sans-serif;
+    letter-spacing: auto;
 }
 #heading {
-    text-align: center;
     font-size: 250%;
     font-weight: bold;
 }
@@ -34,4 +32,10 @@ li {
 
 .blog-content{
     margin: 60px;
+}
+
+.main-img img{
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
