@@ -23,5 +23,10 @@ let intro = document.querySelector(".intro");
 
         setTimeout(() => {
           intro.style.top = "-100vh"
-        }, 4000)
+        }, 4000);
+
+        setTimeout(() => {
+          location.href="index.html"
+        }, 4800);
+        
       });

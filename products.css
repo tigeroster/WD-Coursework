@@ -71,7 +71,7 @@
     color: #088;
 }
 
-#product1 .pro #cart{
+#product1 .pro .cart{
     width: 20px;
     line-height: 40px;
     border-radius: 50px;
@@ -82,7 +82,7 @@
     transition: 0.4s ease;
 }
 
-#product1 .pro #cart:hover{
+#product1 .pro .cart:hover{
     background-color: rgb(236, 236, 236);
 }
 
