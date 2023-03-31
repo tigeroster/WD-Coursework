@@ -9,13 +9,17 @@
   transition: all .2s linear;
 }
 
+body{
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
+
 .container{
   display: flex;
   justify-content: center;
   align-items: center;
   padding:25px;
   min-height: 100vh;
-  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+
 }
 
 .container form{
@@ -90,4 +94,12 @@
 
 .container form .submit-btn:hover{
   background: #2ecc71;
+}
+
+.developer{
+  text-align: center;
+}
+
+.developer a{
+  text-decoration: none;
 }

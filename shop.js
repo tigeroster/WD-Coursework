@@ -18,7 +18,7 @@ if(document.readyState == "loading"){
 }
 
 function ready(){
-    var addBtns = document.getElementById('cart');
+    var addBtns = document.querySelector('.cart');
     for(var i = 0; i < addBtns.length; i++){
         var btnAdd = addBtns[i];
         btnAdd.addEventListener('click', addItem)
