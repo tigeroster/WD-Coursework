@@ -30,3 +30,6 @@ let intro = document.querySelector(".intro");
         }, 4800);
         
       });
+
+
+      

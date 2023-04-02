@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <title>Hoops - Your Most Trusted Online Sporting Store</title>
     <link rel="stylesheet" href="index.css" >
+    <link rel="stylesheet" href="style.css">
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
@@ -15,8 +16,6 @@
   >    
   <link rel="icon" type="image/x-icon" href="Assets/fav.png">
   </head>
-  <body>
-    
     <div id="header">
       <a href="#"
         ><img src="Assets/logo.png" class="logo" alt=""
@@ -34,7 +33,7 @@
             >
           </li>
           <li>
-            <a href="newproducts.html" class="links"
+            <a href="comments-form.html" class="links"
               ><i class="fa-solid fa-pencil " ></i>Feedback</a
             >
           </li>
@@ -61,17 +60,120 @@
         </ul>
       </div>
     </div>
-  <div class="content">
     <div class="banner">
-      
+      <div class="content">
+        <div class="note">
+          <h1>Welcome to Hoops</h1>
+        </div>
+        <!--/div-->   
     </div>
-    <div class="home">
-      <a href="Blogs/impactOfTech.html">Impact of History</a>
-      <a href="Blogs/olympicHistory.html">Olympic History</a>
-      <a href="Blogs/outdoorSports.html">Outdoor Sports</a>
-      <a href="Blogs/winAndLose.html">Win and Lose</a>
     </div>
+    
+  
+  <div class="slider reveal">
+      <h2 class="main">Sports</h2>
+
+      <div class="slides reveal">
+          <input type="radio" name="radio-btn" id="radio1">
+          <input type="radio" name="radio-btn" id="radio2">
+          <input type="radio" name="radio-btn" id="radio3">
+          <input type="radio" name="radio-btn" id="radio4">
+          <input type="radio" name="radio-btn" id="radio5">
+          <input type="radio" name="radio-btn" id="radio6">
+          <input type="radio" name="radio-btn" id="radio7">
+          <input type="radio" name="radio-btn" id="radio8">
+
+          <div class="slide first">
+              <a href="Blogs/impactOfTech.html"><img src="Assets/home/images/img1.jpg" alt=""></a>
+          </div>
+          <div class="slide">
+              <a href="Blogs/olympicHistory.html"></a><img src="Assets/home/images/img2.jpg" alt="">
+          </div>
+          <div class="slide">
+              <a href="Blogs/outdoorSports.html"></a><img src="Assets/home/images/img3.jpg" alt="">
+          </div>
+          <div class="slide">
+              <a href="Blogs/winAndLose.html"></a><img src="Assets/home/images/img4.jpg" alt="">
+          </div>
+
+          <div class="navigation-auto">
+              <div class="auto-btn1"></div>
+              <div class="auto-btn2"></div>
+              <div class="auto-btn3"></div>
+              <div class="auto-btn4"></div>
+          </div>
+      </div>
+      <div class="navigation-manual">
+          <label for="radio1" class="manual-btn"></label>
+          <label for="radio2" class="manual-btn"></label>
+          <label for="radio3" class="manual-btn"></label>
+          <label for="radio4" class="manual-btn"></label>
+      </div>
   </div>
+  <h2 class="main">Blog Articles</h2>
+  <div class="container">
+    <div class="blog">
+      <div class="img">
+      </div>
+      <div class="blog-name">
+        <h1>The impact of technology on sports: Is it a positive or negative influence?</h1>
+        <div class="details">
+          <p class="author"><span>by</span> Lochana Dissanayake</p>
+          <p class="date"><span>published</span> March 12, 2023</p>
+          <button class="blog-btn"><a href="Blogs/impactOfTech.html"></a>Read</button>
+
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+  <div class="container">
+    <div class="blog">
+      <div class="img"></div>
+      <div class="blog-name">
+        <h1>The history of the Olympic Games: From ancient Greece to modern times</h1>
+        <div class="details">
+          <p class="author"><span>by</span> Savina Sandinu</p>
+          <p class="date"><span>published</span> March 20, 2023</p>
+          <button class="blog-btn"><a href="Blogs/olympicHistory.html"></a>Read</button>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+  <div class="container">
+    <div class="blog">
+      <div class="img"></div>
+      <div class="blog-name">
+        <h1>The benefits of participating in outdoor sports and activities</h1>
+        <div class="details">
+          <p class="author"><span>by</span> Sandila Vihanga</p>
+          <p class="date"><span>published</span> November 21, 2023</p>
+          <button class="blog-btn"><a href="Blogs/outdoorSports.html"></a>Read</button>
+
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+  <div class="container">
+    <div class="blog">
+      <div class="img"></div>
+      <div class="blog-name">
+        <h1>The psychology of winning and losing in sports</h1>
+        <div class="details">
+          <p class="author"><span>by</span> Sakith Fernando</p>
+          <p class="date"><span>published</span> March 23, 2023</p>
+          <button class="blog-btn"><a href="Blogs/winAndLose.html"></a>Read</button>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
   <footer class="section-p1">
     <div class="col">
         <img class="logo" src="Assets/logo.png" alt="">
@@ -103,8 +205,13 @@
     </div>
 
     <div class="copyright">
-        <p>© 2023,Hoops - HTML CSS JS Sample </p>
+      <p>
+        © 2023,Hoops - Savina Sandinu
+        <a href="#" style="font-style: italic">Page Developer</a>
+      </p>
     </div>
 </footer>
+
+<script src="script.js"></script>
   </body>
 </html>

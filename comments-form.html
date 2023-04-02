@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="images/x-icon" href="images/Basketball-256.png" />
+    <title>Sports/Forum</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="index.css">
+    <script src="formscript.js" defer></script>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  >  
+</head>
+
+<body>
+    <div id="header">
+        <a href="#"
+          ><img src="Assets/logo.png" class="logo" alt=""
+        ></a>
+        <div>
+          <ul id="navbar">
+            <li>
+              <a href="index.html" class="links"
+                ><i class="fa-solid fa-house " ></i>Home</a
+              >
+            </li>
+            <li>
+              <a href="products.html" class="links"
+                ><i class="fa-solid fa-shop " ></i>Shop</a
+              >
+            </li>
+            <li>
+              <a href="comments-form.html" class="links"
+                ><i class="fa-solid fa-pencil " ></i>Feedback</a
+              >
+            </li>
+            <li>
+              <a href="quiz.html" class="links"
+                ><i class="fa-solid fa-file " ></i>Quiz</a
+              >
+            </li>
+            <li>
+              <a href="thumbnail.html" class="links"
+                ><i class="fa-sharp fa-solid fa-images " ></i>Gallery</a
+              >
+            </li>
+            <li>
+              <a href="#" class="links"
+                ><i class="fa-solid fa-sitemap " ></i>Sitemap</a
+              >
+            </li>
+            <li>
+              <a href="student.html" class="links"
+                ><i class="fa-solid fa-users " ></i>About</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    <div class="banner">
+    
+        <h1>Comments Form</h1>
+        
+            <form id="form" action="https://formsubmit.co/cineditz.movies@gmail.com" method="POST">
+                <div class="form-control">
+                    <label>
+                        How satisfied were you with our website today? 
+                        <p>Choose from 0 to 10, where 0 is extremely dissatisfied and 10 is extremely satisfied</p>
+                    </label>
+                    <div class="radioGroup">
+                        <label for="option0">
+                            <input type="radio"
+                            id="option0"
+                            name="option"
+                            value="0" required>0</input>
+                        </label>
+                        <label for="option1">
+                            <input type="radio"
+                            id="option1"
+                            name="option"
+                            value="1">1</input>
+                        </label>
+                        <label for="option2">
+                            <input type="radio"
+                            id="option2"
+                            name="option"
+                            value="2">2</input>
+                        </label>
+                        <label for="option3">
+                            <input type="radio"
+                            id="option3"
+                            name="option"
+                            value="3">3</input>
+                        </label>
+                        <label for="option4">
+                            <input type="radio"
+                            id="option4"
+                            name="option"
+                            value="4">4</input>
+                        </label>
+                        <label for="option5">
+                            <input type="radio"
+                            id="option5"
+                            name="option"
+                            value="5">5</input>
+                        </label>
+                        <label for="option6">
+                            <input type="radio"
+                            id="option6"
+                            name="option"
+                            value="6">6</input>
+                        </label>
+                        <label for="option7">
+                            <input type="radio"
+                            id="option7"
+                            name="option"
+                            value="7">7</input>
+                        </label>
+                        <label for="option8">
+                            <input type="radio"
+                            id="option8"
+                            name="option"
+                            value="8">8</input>
+                        </label>
+                        <label for="option9">
+                            <input type="radio"
+                            id="option9"
+                            name="option"
+                            value="9">9</input>
+                        </label>
+                        <label for="option10">
+                            <input type="radio"
+                            id="option10"
+                            name="option"
+                            value="10">10</input>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- test -->
+                <div class="form-control">
+                    <label for="comment" id="Comments">
+                        <p class="space">
+                            Please could you tell us your reasons for giving this rating?
+                        </p>    
+                    </label>
+                    <input type="text" name="comment" id="Comments" required>
+                </div>
+                <!-- test over -->
+
+                <div class="form-control">
+                    <label for="q3" id="label-q3">
+                        <p class="space">
+                            How did you want to complete this task today? (optional)   
+                        </p> 
+                    </label>
+
+                    <!-- Dropdown options -->
+                    <select name="q3" id="q3">
+                        <option value="Phone">Phone</option>
+                        <option value="Website">Website</option>
+                        <option value="Webchat">Webchat</option>
+                        <option value="Social media">Social media</option>
+                        <option value="Email">Email</option>
+                    </select>
+                </div>
+
+                <div class="form-control">
+                    <label for="q4" id="q4">
+                        <p class="space">
+                            If you had to complete this task again, how would you prefer to do it? (optional) 
+                        </p>
+                    </label>
+
+                    <!-- Dropdown options -->
+                    <select name="q4" id="q4">
+                        <option value="Phone">Phone</option>
+                        <option value="Website">Website</option>
+                        <option value="Webchat">Webchat</option>
+                        <option value="Social media">Social media</option>
+                        <option value="Email">Email</option>
+                    </select>
+                </div>
+
+                 
+                <div class="btn1">
+                    <div id="button">
+                        <button type="submit" class="btn" onclick="togglePopup()">
+                            Submit
+                        </button>
+                    </div>
+                </div>
+            </form>
+
+                <div class="popup" id="popup-1">
+                    <div class="overlay"></div>
+                    <div class="content">
+                        <div class="close-btn" onclick="togglePopup()">&times;</div>
+                        <h2>Thank you!</h2>
+                        <p>Thank you for taking the time to give us your feedback on your experience today.</p>
+                    </div>
+                </div>
+
+    </div>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="Assets/logo.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address: </strong>562 Wellington Road, Street 32, San Fransisco</p>
+            <p><strong>Phone: </strong>+01 2222 365 / (+94) 01 234 0923</p>
+            <p><strong>Hours: </strong>10:00 - 18:00, Mon - Sat</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col install">
+            <h4>Insall App</h4>
+            <p>Available on App Store and Google Store</p>
+            <div class="row">
+                <img src="Assets/img/pay/app.jpg" alt="">
+                <img src="Assets/img/pay/play.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="Assets/img/pay/pay.png" alt="">
+        </div>
+    
+        <div class="copyright">
+            <p>
+                © 2023,Hoops - Savina Sandinu
+                <a href="#" style="font-style: italic">Page Developer</a>
+              </p>
+        </div>
+    </footer>
+</body>     
+</html>
