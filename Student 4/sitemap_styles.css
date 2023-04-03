@@ -1,0 +1,75 @@
+body
+{
+    background-color:rgba(119, 228, 119, 0.634);
+    font-family: "Courier New", Courier, monospace;
+}
+
+text
+{
+    font-size: 20px;
+    fill: black;
+    font-style:oblique;
+}
+
+path{
+    stroke: rgb(14, 14, 15);
+    stroke-width: 6;
+    fill: aquamarine;
+}
+
+h1
+{
+    font-family: 'Brush Script MT', cursive;
+	color:rgb(12, 10, 10);
+    text-align: center;
+    font-size: 80px;
+    margin-top: 90px;
+}
+
+
+#presentationPage
+{
+    fill: rgb(245, 250, 244);
+}
+
+#presentationPage:hover
+{
+    fill:rgb(100, 245, 119);
+}
+
+#homePage
+{
+    fill: rgb(243, 245, 240);
+}
+
+#homePage:hover
+{
+    fill: rgb(103, 197, 104);
+    
+}
+
+.page
+{
+    fill: rgb(248, 251, 245);
+}
+
+.page:hover
+{
+    fill: rgb(110, 238, 94);
+}
+
+.student
+{
+    fill: rgb(140, 233, 0);
+}
+
+.student:hover
+{
+    fill: red;
+}
+
+ .box
+{
+    stroke-width: 5;
+    stroke: rgb(128, 244, 124);
+}

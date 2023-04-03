@@ -108,7 +108,7 @@ body {
   cursor: pointer;
 }
 .gallery {
-  background: url("Assets/gallery.jpg");
+  background: url("/Assets/gallery.jpg");
   height: 70vh;
   background-position: center;
   background-size: cover;

@@ -1,0 +1,32 @@
+.container {
+    margin: 30px;
+    text-align: justify;
+}
+#heading {
+    text-align: center;
+    font-size: 250%;
+    font-weight: bold;
+}
+#firstLetter {
+    font-size: 180%;
+    font-weight: bold;
+}
+.topics {
+    font-size: 180%;
+}
+.subtopics {
+    font-weight: bold;
+}
+.images {
+    width: 350px;
+}
+figure {
+    margin: 0px;
+}
+figcaption {
+    font-style: italic;
+    font-size: 80%;
+}
+#sleepImg {
+    height: 200px;
+}
