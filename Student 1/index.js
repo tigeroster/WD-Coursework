@@ -1,6 +1,6 @@
 let intro = document.querySelector(".intro");
-      let logo = document.querySelector(".logo-header");
-      let logospan = document.querySelectorAll(".lg");
+let logo = document.querySelector(".logo-header");
+let logospan = document.querySelectorAll(".lg");
 
       window.addEventListener("DOMContentLoaded", () => {
         setTimeout(() => {
@@ -26,7 +26,7 @@ let intro = document.querySelector(".intro");
         }, 4000);
 
         setTimeout(() => {
-          location.href="index.html"
+          location.href="/Student 2/index.html"
         }, 4800);
         
       });

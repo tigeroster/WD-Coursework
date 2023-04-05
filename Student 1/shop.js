@@ -2,6 +2,7 @@ let cartIcon = document.querySelector('.cart-icon')
 let cart = document.querySelector('.cart-container')
 let cartRemove = document.querySelector('.close-cart')
 let cartQuantity = 0;
+let cartBtn = document.querySelectorAll('.cart')
 
 cartIcon.onclick = () => {
     cart.classList.add("active")
@@ -15,6 +16,10 @@ if(document.readyState == "loading"){
     document.addEventListener("DOMContentLoaded", ready);
 }else{
     ready();
+}
+
+function addCartBtn(){
+    alert('Item added successfully')
 }
 
 function ready(){
@@ -100,7 +105,7 @@ function addProductToCart(title, price, productImg){
                         <div class="cart-price">${price}</div>
                         <input type="number" value="1" class="cart-quantity">
                     </div>
-                    <img src="Assets/trash.png" alt="" class="cart-remove">`;
+                    <img src="/Assets/trash.png" alt="" class="cart-remove">`;
 
 cartShopBox.innerHTML = cartBoxContent;
 cartItems.append(cartShopBox);
